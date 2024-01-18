@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:backgroundTint="#ffffff">
+
+    <ImageView android:layout_width="match_parent"
+        android:layout_height="match_parent" 
+        android:src="@drawable/launch_logo"
+        android:background="#ffffff"
+        android:scaleType="centerInside"
+         android:layout_centerVertical="true"
+         android:layout_centerHorizontal="true"
+        android:paddingHorizontal="50dp"
+        android:paddingVertical="50dp"/>
+
+    <!-- <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="298dp"
+        android:textAlignment="textEnd"
+        android:textColor="#000000"
+        android:text="Sample Text Goes Here" /> -->
+
+</RelativeLayout>
