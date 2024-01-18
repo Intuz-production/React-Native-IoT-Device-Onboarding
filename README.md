@@ -2,8 +2,7 @@
 
 ## Introduction:
 
-- React Native IoT Device Onboarding Module component helps you with the Onboarding of the IoT device using the WiFi network
-  You can directly use this in your react native project by following the below steps
+- INTUZ introduces React Native IoT Device Onboarding Module component which helps you with the Onboarding of the IoT device using the WiFi network You can directly use this in your react native project by following the below steps
 
 ## Description:
 - This Component can be used to extend your application with IoT device's onboarding support using the mobile application and Wi-Fi connectivity, this app uses wifi to onboard your IoT device.
