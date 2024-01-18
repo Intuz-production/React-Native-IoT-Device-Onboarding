@@ -4,7 +4,6 @@
 import React from 'react';
 import {StatusBar, Text, TextInput} from 'react-native';
 import {NativeBaseProvider} from 'native-base';
-import * as Sentry from '@sentry/react-native';
 
 import {useAppThemeName, useAppTheme} from 'theme';
 import {ConfirmModalProvider} from 'components';
@@ -13,10 +12,6 @@ import NavContainer from './navigation';
 import AppProviders from './AppProvider';
 
 import Toast from 'react-native-toast-message';
-
-Sentry.init({
-  dsn: '',
-});
 
 function SubApp() {
   const themeStyle = useAppThemeName();
@@ -51,4 +46,4 @@ function App() {
   );
 }
 
-export default Sentry.wrap(App);
+export default App;
