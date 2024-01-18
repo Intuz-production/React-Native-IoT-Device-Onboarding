@@ -3,7 +3,6 @@
  */
 import {create, CancelToken} from 'apisauce';
 import Config from 'react-native-config';
-import * as Sentry from '@sentry/react-native';
 
 import i18n from '../locale';
 
@@ -37,7 +36,6 @@ const captureError = (res, url) => {
     const message = `Message:${url},`;
     const genTime = `GENERATE_TIME:${new Date().toLocaleString()},`;
     const capMsg = `${cUrl} ${message} ${genTime} ${JSON.stringify(res)}`;
-    Sentry.captureMessage(capMsg);
   }
 };
 
