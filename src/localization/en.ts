@@ -35,7 +35,7 @@ const en = {
         title: 'Connect to Controller',
         image: Images.page_en_3,
         bg: Images.bg_page,
-        subTitle: 'Go to your WIFI settings and find the WIFI network starting with INTUZ. Connect to this network. Its password is “password” (all lower case). IMPORTANT: BE SURE YOU ARE CONNECTED TO THIS INTUCHARGE WIFI NETWORK BEFORE CONTINUING!',
+        subTitle: 'Go to your WIFI settings and find the WIFI network starting with INTUZ. Connect to this network. Its password is “password” (all lower case). IMPORTANT: BE SURE YOU ARE CONNECTED TO THIS INTUZ WIFI NETWORK BEFORE CONTINUING!',
       },
     ],
     continue: 'Continue',
