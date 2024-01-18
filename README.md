@@ -19,12 +19,7 @@
 
 **Getting started :**
 
-1. GIT checkout from below GIT url:
-
-   - URL : https://github.com/IntuCharge/intucharge-ev-reactnative
-   - Branch : development
-
-2. Install all NPM packages by using following command
+1. Install all NPM packages by using following command
 
    - npm i | yarn
    - Define the important dependent package with version
@@ -33,13 +28,13 @@
      - react-redux - ^8.0.5
      - react-native-mmkv - ^2.5.1
 
-3. Manage the environment of the App from .env files (stage, prod)
+2. Manage the environment of the App from .env files (stage, prod)
 
-4. Run YARN or npm i command for install the package
+3. Run YARN or npm i command for install the package
 
    - npm i or yarn
 
-5. Go through the package.json file and check the scripts for command regarding:
+4. Go through the package.json file and check the scripts for command regarding:
 
    - Pod-install
    - Android build clean
@@ -50,7 +45,7 @@
    - bundle the Android package
    - bundle the iOS package
 
-6. Use of this repo:
+5. Use of this repo:
    - First follow the Tutorial pager and modify the code according to your need
    - Change the API endpoints and also manage the local API client to connect with the desired device with static base URL/address (default set to: 192.168.4.1)
    - Also change the remote url address with your server and then use that for remote data fetching
