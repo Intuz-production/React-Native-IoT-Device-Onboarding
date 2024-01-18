@@ -433,7 +433,7 @@ function ConfigScreen(props: RootStackScreenProps<"ConfigScreen">) {
                     color={theme.colors.message[600]}
                     style={{ fontSize: 16, textAlign: "center" }}
                   >
-                    {"Successfully connected to the INTUCHARGE Controller"}
+                    {"Successfully connected to the INTUZ Controller"}
                   </Text>
                   <Text
                     color={theme.colors.black[800]}
@@ -441,7 +441,7 @@ function ConfigScreen(props: RootStackScreenProps<"ConfigScreen">) {
                     marginTop={10}
                   >
                     {
-                      "This Next Step will connect \n INTUCHARGE device to your wireless network."
+                      "This Next Step will connect \n INTUZ device to your wireless network."
                     }
                   </Text>
                 </View>
