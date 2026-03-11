@@ -1,3 +1,10 @@
+## About Intuz
+This library is maintained by [Intuz](https://www.intuz.com) — an AI-first software development company specializing in [IoT application development](https://www.intuz.com/iot-application-development)
+and [React Native app development](https://www.intuz.com/custom-app-development).
+<br><br>
+
+
+
 ## React Native IoT Device Onboarding
 
 ## Introduction:
